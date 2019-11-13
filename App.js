@@ -5,7 +5,7 @@ import Header from './src/component/header'
 export default function App() {
   return (
     <View style={styles.container}>
-      <Header />
+      <Header text="hi" />
     </View>
   );
 }
